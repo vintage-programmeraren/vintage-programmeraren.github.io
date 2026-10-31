@@ -1,11 +1,10 @@
-title: My Blog
-description: Thoughts, code and running.
-author: Your Name
+title: Vintage-programmeraren
+description: En old school-programmerare som skriver av sig om klassisk vintage-programmering i relation till AI
+author: Fredde Johnsson
 
-url: "https://username.github.io"
+url: "https://vintage-programmeraren.github.io"
 baseurl: ""
 
-markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
 plugins:
