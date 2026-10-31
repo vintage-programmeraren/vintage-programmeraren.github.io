@@ -3,9 +3,9 @@ layout: default
 title: Hem
 ---
 
-# Welcome
+# Någon hittade visst hit!
 
-Your latest posts will appear here.
+Här är dom senaste tio grejor jag skrivit:
 
 {% for post in site.posts limit:10 %}
   <article>
