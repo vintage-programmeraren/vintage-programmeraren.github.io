@@ -1,0 +1,15 @@
+title: My Blog
+description: Thoughts, code and running.
+author: Your Name
+
+url: "https://username.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages builds the site from the repository root.

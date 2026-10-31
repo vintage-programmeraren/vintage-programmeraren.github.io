@@ -1,0 +1,5 @@
+<article class="post-card">
+  <h2><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h2>
+  <p class="meta">{{ include.post.date | date: "%Y-%m-%d" }}</p>
+  {% if include.post.description %}<p>{{ include.post.description }}</p>{% endif %}
+</article>

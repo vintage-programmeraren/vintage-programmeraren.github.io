@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: inherit; }
+.container { width: min( min(100% - 2rem, 760px), 100%); margin-inline: auto; }
+.site-header, .site-footer { padding: 1rem 0; border-bottom: 1px solid #8885; }
+.site-footer { margin-top: 4rem; border-top: 1px solid #8885; border-bottom: 0; }
+.nav { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.nav nav { display: flex; gap: 1rem; }
+.site-title { font-weight: 700; text-decoration: none; }
+main { padding-top: 2rem; }
+.meta { opacity: .7; font-size: .9rem; }
+article { margin-block: 2rem; }
