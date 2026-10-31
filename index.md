@@ -5,7 +5,7 @@ title: Hem
 
 # Någon hittade visst hit!
 
-Här är dom senaste tio grejor jag skrivit:
+Här är dom senaste tio grejorna som jag har skrivit:
 
 {% for post in site.posts limit:10 %}
   <article>
